@@ -1,7 +1,5 @@
 {
   "version": 2,
-  "name": "homelyhub",
   "builds": [{ "src": "app.js", "use": "@vercel/node" }],
-  "routes": [{ "src": "/(.*)", "dest": "/app.js" }],
-  "rewrites": [{ "source": "/(.*)", "destination": "/app.js" }]
+  "routes": [{ "src": "/(.*)", "dest": "/" }]
 }
